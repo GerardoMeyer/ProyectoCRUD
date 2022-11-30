@@ -1,0 +1,39 @@
+/*Header*/
+#header {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(152, 148, 233, 1) 100%);
+    font-family: 'Oswald', sans-serif;
+    padding: 2%;
+}
+
+#header .img {
+    width: 70px;
+}
+
+#header .navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/*Footer*/
+#footer {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(152, 148, 233, 1) 100%);
+    font-family: 'Oswald', sans-serif;
+    padding-left: 15%;
+}
+
+.columna-abajo {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.columna-abajo2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.columna-abajo3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

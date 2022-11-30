@@ -74,6 +74,39 @@
         </nav>
     </section>
 
+    <section id="crud">
+        <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+            <div class="clTabla">
+                <table class="tabla" id="tabla">
+                    <thead>
+                        <tr>
+                            <th>Tarea</th>
+                            <th>Descripción</th>
+                            <th>Opciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="inCampos">
+                <label for="tar">Tarea</label> <br> <input type="text" class="txtTarea" placeholder="Tarea aquí"
+                    required>
+                <br>
+                <br>
+                <label for="des">Descripcion</label> <br> <textarea class="txtDescripcion"
+                    placeholder="Descripción aquí" rows="5" cols="50" required></textarea>
+            </div>
+            <br>
+            <input onclick="mostrar()" class="submit" type="submit" value="Agregar">
+            <input onclick="Vaciar()" type="submit" value="Vaciar">
+        </form>
+    </section>
+
 
     <section id="footer">
         <div class="container-fluid">

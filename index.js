@@ -41,8 +41,8 @@ function InsertarDatos(data) {
     let Fila = table.insertRow(table.length)
     columna1 = Fila.insertCell(0).innerHTML = data.tar
     columna2 = Fila.insertCell(1).innerHTML = data.des
-    columna3 = Fila.insertCell(2).innerHTML = `<input class="submit" type="button" onClick="Editarr(this)" value="Editar" >
-                                            <input class="submit" type="button" onClick="Borrarr(this)" value="Borrar" >`
+    columna3 = Fila.insertCell(2).innerHTML = `<input class="submit btn btn-outline-primary" type="button" onClick="Editarr(this)" value="Editar" >
+                                            <input class="submit btn btn-outline-danger" type="button" onClick="Borrarr(this)" value="Borrar" >`
     Vaciar()
 }
 

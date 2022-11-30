@@ -16,6 +16,13 @@
 }
 
 /*CRUD Sección*/
+#crud {
+    padding: 5%;
+}
+
+#crud .container #titulo {
+    text-align: center;
+}
 .clTabla {
     display: inline-block;
 }
@@ -23,13 +30,14 @@
 table {
     visibility: hidden;
 }
+
 table tr th {
     border: 1px solid #D5D9D9;
     width: 100px;
     height: 25px;
-    color: rgb(48, 48, 48);
-    background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgb(16, 169, 172) 0%, rgb(255, 174, 0) 100%);
+    background-color: #c3bef0;
+    text-align: center;
+    padding: 1%;
 }
 
 /* Para el estilo de las nuevas celdas */
@@ -37,6 +45,11 @@ td {
     text-align: center;
     width: 10%;
     height: 10%;
+    padding: 2%;
+}
+
+td:hover {
+    background-color: #cecece;
 }
 
 /*Footer*/

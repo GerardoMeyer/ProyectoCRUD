@@ -26,6 +26,18 @@
     <!--Link al CSS-->
     <link rel="stylesheet" href="./index.css">
 
+    <!--Fonts de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+    <!--LINK ÍCONOS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -77,8 +89,8 @@
     <section id="crud">
         <div class="container">
             <div class="d-flex bd-highlight mb-3">
-                <div class="me-auto p-2 bd-highlight">
-                    <h2 id="titulo">CRUD VIDEOJUEGOS</h2>
+                <div class="tituloEncabezado">
+                    CRUD VIDEOJUEGOS
                 </div>
             </div>
 
@@ -110,12 +122,78 @@
                             placeholder="Descripción aquí" rows="5" cols="50" required></textarea>
                     </div>
                     <br>
-                    <input onclick="mostrar()" class="submit btn btn-outline-dark" type="submit" value="Agregar">
+                    <input class="submit btn btn-outline-dark" type="submit" value="Agregar">
                     <input onclick="Vaciar()" type="submit" class="btn btn-outline-success" value="Vaciar">
                 </form>
             </div>
         </div>
+    </section>
 
+    <hr class="sections">
+
+    <section id="productos">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 juegos juego1">
+                    <img class="img_productos"
+                        src="https://www.muycomputer.com/wp-content/uploads/2022/09/Overwatch-2-1-1000x600.jpg" alt="">
+                    <div class="frase_productos">
+                        <h3 style="font-size: 1.5625rem; font-weight: bold;">Overwatch 2</h3>
+                        <p style="font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                            dignissimos dolore consequuntur
+                            perferendis eveniet exercitationem illo voluptatem repellendus, eaque in nobis id dolor
+                            inventore laudantium quibusdam, aperiam optio sequi! Culpa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 juegos juego2">
+                    <img class="img_productos"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqBYBYeW9VJo7zuOFeBDwlck7QtFnZoXrWE__zbEt6s5SF5ya1_HkYkWju2AV-jK4-74BO7lPcp0mBR2YpqltLrRCMvt7YEzoCuf5KDRvC1sRhHW3Tm5CdGCCfFy1PyfTimZ7eJZU0fED0sM-rLW_GcIHB0s-pGvP0MN3wZsrY0CXSQykHRQYOQ71lDg/s1920/resim_2022-09-17_132156508.png"
+                        alt="">
+                    <div class="frase_productos">
+                        <h3 style="font-size: 1.5625rem; font-weight: bold;">League of legends</h3>
+                        <p style="font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                            dignissimos dolore consequuntur
+                            perferendis eveniet exercitationem illo voluptatem repellendus, eaque in nobis id dolor
+                            inventore laudantium quibusdam, aperiam optio sequi! Culpa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 juegos juego3">
+                    <img class="img_productos"
+                        src="https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2015/02/15/1331705372408_2/dota-2"
+                        alt="">
+                    <div class="frase_productos">
+                        <h3 style="font-size: 1.5625rem; font-weight: bold;">Dota 2</h3>
+                        <p style="font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum
+                            aspernatur laborum
+                            voluptatem deserunt, vero quae fugiat unde et eius velit laudantium ex cumque, ad magnam
+                            corporis amet asperiores commodi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="sections">
+
+    <section id="puntos">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container1">
+                <h1 class="display-2" style="font-weight: bold;"><i class="far fa-hand-point-up"></i> Proto-points</h1>
+                <p class="lead" style="font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iste est, blanditiis earum laborum reiciendis praesentium soluta porro id aspernatur expedita autem
+                    voluptates ut pariatur in similique repellendus! Numquam, beatae accusamus!</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="container2">
+                <h1 class="display-6" style="font-weight: bold;"><i class="fas fa-hat-wizard"></i> ¿Cómo conseguirlos?
+                </h1>
+                <p class="lead" style="font-style: italic;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quisquam, voluptatum in autem culpa sunt enim corrupti, numquam itaque, excepturi sequi amet
+                    repellendus cupiditate at quae ullam fugit quia nulla soluta.</p>
+            </div>
+        </div>
     </section>
 
 

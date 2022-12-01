@@ -9,11 +9,6 @@ let boton = document.querySelector('.btnAgregar')
 
 let table = document.querySelector('.tabla')
 
-//Por si la tabla anda vacía
-function mostrar() {
-    table.style.visibility = 'visible'
-}
-
 
 //Submit del form
 function onSubmit() {

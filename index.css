@@ -1,3 +1,31 @@
+/*General*/
+hr.sections {
+    overflow: visible;
+    /* For IE */
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.sections:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+.tituloEncabezado {
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    padding-left: 21%;
+    font-weight: bold;
+}
+
 /*Header*/
 #header {
     background: rgb(238, 174, 202);
@@ -18,6 +46,7 @@
 /*CRUD Sección*/
 #crud {
     padding: 5%;
+    text-align: center;
 }
 
 #crud .container #titulo {
@@ -28,7 +57,7 @@
 }
 
 table {
-    visibility: hidden;
+    visibility: visible;
 }
 
 table tr th {
@@ -50,6 +79,44 @@ td {
 
 td:hover {
     background-color: #cecece;
+}
+
+
+#crud .inCampos{
+    font-family: 'Nerko One', cursive;
+}
+
+/*Imagenes de juegos*/
+#productos {
+    padding: 3% 5% 5% 5%;
+}
+
+#productos .img_productos {
+    border-radius: 80%;
+    margin-left: 25%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 60%;
+}
+
+#productos .frase_productos {
+    text-align: center;
+    padding-bottom: 7%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Sección puntos*/
+#puntos .jumbotron-fluid {
+    background-color: white;
+    padding: 5%;
+}
+
+#puntos .jumbotron-fluid .container1 {
+    text-align: left;
+}
+
+#puntos .jumbotron-fluid .container2 {
+    text-align: right;
 }
 
 /*Footer*/

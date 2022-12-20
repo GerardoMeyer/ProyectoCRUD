@@ -1,3 +1,4 @@
+// Código general
 tareas = []
 let Fila = null
 
@@ -6,11 +7,10 @@ let txtTarea = document.querySelector('.txtTarea')
 let txtDescription = document.querySelector('.txtDescripcion')
 
 //Obtener el boton
-let boton = document.querySelector('.btnAgregar')
+let boton = document.querySelector('.submit')
 
+// Obtener la tabla
 let table = document.querySelector('.tabla')
-
-leerLS()
 
 //INSERTAR LOCALSTORAGE 
 function crearLS(e) {
@@ -80,8 +80,8 @@ function editarLS(titulo) {
                         <label for="tar">Videojuego</label> <br> <input type="text" id="newTitulo" class="form-control"
                             placeholder="${juegosJS[i].titulo}">
                         <br>
-                         <br>
-                       <label for="des">Descripcion</label> <br> <textarea id="newDescripcion" class="form-control"
+                        <br>
+                        <label for="des">Descripcion</label> <br> <textarea id="newDescripcion" class="form-control"
                             placeholder="${juegosJS[i].descripcion}" rows="5" cols="50"></textarea>
                     </div>
                     <br>
